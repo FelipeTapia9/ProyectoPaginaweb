@@ -8,14 +8,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="{% static 'usuario/css/estilos.css'%}">
-        <link rel="stylesheet" href="{% static 'usuario/css/estilos.css'%}">        
+        <link rel="stylesheet" href="{% static 'usuario/css/otros_estilos.css'%}">        
         <title>Login</title>
 
     </head>
     <body>
         <h1>Inicio</h1>
         <p>Este es el proyecto miSitio</p>
-        <a href="#">Inicio sesión</a>
+        <a href="{% url 'InicioSesion' %}">Inicio sesión</a>
 
     </body>
 </html>
